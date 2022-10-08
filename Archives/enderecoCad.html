@@ -1,0 +1,24 @@
+<html lang="pt-br">
+<head> 
+    <meta charset="utf-8"/>
+    <title>Endereços de entrega</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div id="corpo-form">
+    <h1>Cadastrar endereço</h1>
+     <form method="POST" action="enderecoCad.php">
+        <input type="text" name="rua" placeholder="Rua" maxlength="50">       
+        <input type="number" name="numero" placeholder="Número" maxlength="10">
+        <input type="text" name="bairro" placeholder="Bairro" maxlength="50">
+        <input type="number" name="cep" placeholder="CEP" maxlength="8">
+        <input type="text" name="complement" placeholder="Complemento (Ex: Casa, Apto 7)" maxlength="50">  
+        <input type="submit" value="Cadastrar endereço">
+     </form>
+     <form method="POST" action="menuUser.html">
+        <input type="submit" value="Voltar para menu"> 
+     </form>  
+    </div>
+    
+</body>
+</html>

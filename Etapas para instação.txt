@@ -1,0 +1,15 @@
+NOMES:
+Jean Douglas Carvalho RA:2259591
+
+Gabriel Martins Rocha RA:2258951
+
+1- Baixar XAMPP, inicializar Apache (servidor) e Mysql (banco de dados), os programas devem estar rodando
+sem qualquer tipo de erros.
+
+2- Cole a pasta "pizzaria" dentro da pasta "htdocs" no diretório de instalação do seu XAMPP
+
+3- Abrir a aba admin do Mysql no aplicativo XAMPP e clicar na aba "SQL", logo abaixo do número do servidor.
+
+4- Cole na primeira linha o conteúdo que se encontra no arquivo "script BD.txt" (este é o script para criação do BD).
+
+5- Abra o programa indo até o "localhost/pizzaria" no seu navegador de internet.

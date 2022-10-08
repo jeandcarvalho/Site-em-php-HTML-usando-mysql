@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("../img/fundo4.jpg");
+    background-position: 50% 70%;
+    font-family: arial;
+}
+
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+}
+
+div#corpo-form{
+   /* background-color: red;*/
+    width: 420px;
+    margin: 150px auto 0px auto;
+    color: hwb(29 0% 47%);;
+}
+
+div#corpo-form h1{
+    text-align: center;
+    padding:20px;
+}
+
+a{
+    color:hwb(29 0% 47%);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+#table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #table td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #table tr:hover {background-color: #ddd;}
+  
+  #table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #fff;
+    color: white;
+  }
+
+a:hover{
+    text-decoration: underline;
+}
+
+input[type=submit]{
+    background-color: hsla(29, 100%, 45%, 0.918);
+    border: none;
+}
